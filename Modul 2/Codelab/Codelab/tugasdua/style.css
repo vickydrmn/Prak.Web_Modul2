@@ -1,0 +1,18 @@
+body {
+  background-color: rgb(0, 162, 255);
+  display: flex;
+  justify-content: center; /* Mengatur agar konten berada di tengah secara horizontal */
+  align-items: center; /* Mengatur agar konten berada di tengah secara vertikal */
+  height: 100vh; /* Memberikan tinggi 100% dari viewport */
+  margin: 0; /* Menghilangkan margin default body */
+}
+
+form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.form-control {
+  width: 300px;
+}

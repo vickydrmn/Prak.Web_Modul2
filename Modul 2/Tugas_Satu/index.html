@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="stylr.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="calculator">
+        <input type="text" id="inputtext" placeholder="0" />
+        <button class="operator" onclick="clr()">CD</button>
+        <button class="operator" onclick="del()">DE</button>
+        <button class="operator" onclick="Cal('.')">.</button>
+        <button class="operator" onclick="Cal('/')">/</button>
+        <button onclick="Cal(7)">7</button>
+        <button onclick="Cal(8)">8</button>
+        <button onclick="Cal(9)">9</button>
+        <button class="operator" onclick="Cal('*')">x</button>
+        <button onclick="Cal(4)">4</button>
+        <button onclick="Cal(5)">5</button>
+        <button onclick="Cal(6)">6</button>
+        <button class="operator" onclick="Cal('-')">-</button>
+        <button onclick="Cal(1)">1</button>
+        <button onclick="Cal(2)">2</button>
+        <button onclick="Cal(3)">3</button>
+        <button class="operator" onclick="Cal('+')">+</button>
+        <button onclick="Cal('00')">00</button>
+        <button onclick="Cal(0)">0</button>
+        <button class="equal operator" onclick="Result()">=</button>
+
+        <script src="cal.js"></script>
+      </div>
+    </div>
+  </body>
+</html>
